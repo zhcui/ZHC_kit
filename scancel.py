@@ -10,5 +10,5 @@ import subprocess
 id1 = int(sys.argv[1])
 id2 = int(sys.argv[2])
 
-for i in xrange(id1, id2 + 1):
+for i in range(id1, id2 + 1):
     subprocess.call('scancel %d'%(i), shell = True)
